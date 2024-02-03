@@ -1,0 +1,251 @@
+<html>
+//table 1
+
+<table border="1">
+  <tr style="background-color: yellow;">
+    <th>Name</th>
+    <th>E-mail</th>
+    <th>Years of Service</th>
+  </tr>
+  <tr>
+    <td>Joel Murach</td>
+    <td>joelmurach@yahoo.com</td>
+    <td>22</td>
+  </tr>
+  <tr style="background-color: yellow;">
+    <td>Anne Boehm</td>
+    <td>anne@murach.com</td>
+    <td>34</td>
+  </tr>
+  <tr>
+    <td>Zak Ruvalcaba</td>
+    <td>zak@modulemedia.com</td>
+    <td>4</td>
+  </tr>
+  <tr style="background-color: yellow;">
+    <td>Judy Taylor</td>
+    <td>judy@murach.com</td>
+    <td>39</td>
+  </tr>
+  <tr>
+    <td>Cyndi Vasquez</td>
+    <td>cyndi@murach.com</td>
+    <td>10</td>
+  </tr>
+  <tr style="background-color: yellow;">
+    <td>Kelly Slivkoff</td>
+    <td>kelly@murach.com</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Juliette Baylon</td>
+    <td>juliette@murach.com</td>
+    <td>1</td>
+  </tr>
+</table>
+
+
+
+
+
+
+<style>
+
+</style>
+//table 2
+<table style="width:100%">  
+  <tr style="background-color: purple;">
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>4ge</th>
+  </tr>
+  <tr style="background-color: gray;">
+    <td>Josh</td>
+    <td>brings</td>
+    <td>35</td>
+  </tr>
+  <tr>
+    <td>Nancy</td>
+    <td>Ollion</td>
+    <td>26</td>
+  </tr>
+  <tr style="background-color: gray;">
+    <td>Ben</td>
+    <td>Anderson</td>
+    <td>28</td>
+  </tr>
+  <tr>
+    <td>Tom</td>
+    <td>Rickler</td>
+    <td>45</td>
+  </tr>
+</table>
+
+//table 3
+<style>
+        table {
+            border-collapse: collapse;
+            width: 70%;
+            margin: auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th.email, td.email, th.total, td.total {
+            background-color: yellow;
+        }
+
+        td.no-background {
+            background-color: initial;
+        }
+    </style>
+
+<body>
+
+<h2 style="text-align: center;">Employee Table</h2>
+
+ <table>
+        <tr>
+            <th class="email">Department</th>
+            <th class="email">Name</th>
+            <th class="email">E-mail</th>
+            <th class="email">Years of Service</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Editorial</td>
+            <td>Joel Murach</td>
+            <td>joelmurach@yahoo.com</td>
+            <td>221</td>
+        </tr>
+        <tr>
+            <td style="background-color: yellow;">Anne Boehm</td>
+            <td class="email">anne@murach.com</td>
+            <td style="background-color: yellow;">34</td>
+        </tr>
+        <tr>
+            <td>Zak Ruvalcaba</td>
+            <td>zak@modulemedia.com</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>Marketing</td>
+            <td style="background-color: yellow;">Judy Taylor</td>
+            <td class="email">judy@murach.com</td>
+            <td style="background-color: yellow;">39</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="no-background">Cyndi Vasquez</td>
+            <td class="no-background">cynos@amarach.com</td>
+            <td>101</td>
+        </tr>
+        <tr>
+            <td>Customer Service</td>
+            <td style="background-color: yellow;">Kelly Slivkoff</td>
+            <td class="email">kelly@murach.com</td>
+            <td style="background-color: yellow;">25</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td class="no-background">Juliette Baylon</td>
+            <td class="no-background">junete@murach.com</td>
+            <td class="no-background">1</td>
+        </tr>
+        <tr>
+            <th class="total" colspan="3">Total Years of Service</th>
+            <td class="total">105</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
+
+
+//table 4
+<style>
+     table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th.Mon, td.Mon, th.Tue, td.Tue {
+            background-color: lightblue;
+        }
+
+        th.Wed, td.Wed, th.Thu, td.Thu, th.Fri, td.Fri {
+            background-color: lightcoral;
+        }
+ </style>
+
+
+<table>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <colgroup span="4"></colgroup>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+        <colgroup span="2"></colgroup>
+
+<tr>
+            <th class="Mon">MON</th>
+            <th class="Tue">TUE</th>
+            <th class="Wed">WED</th>
+            <th class="Thu">THU</th>
+            <th class="Fri">FRI</th>
+            <th class="Sat">SAT</th>
+            <th class="Sun">SUN</th>
+        </tr>
+        <tr>
+            <td class="Mon">1</td>
+            <td class="Tue">2</td>
+            <td class="Wed">3</td>
+            <td class="Thu">4</td>
+            <td class="Fri">3</td>
+            <td class="Sat">6</td>
+            <td class="Sun">7</td>
+        </tr>
+        <tr>
+            <td class="Mon">8</td>
+            <td class="Tue">9</td>
+            <td class="Wed">10</td>
+            <td class="Thu">11</td>
+            <td class="Fri">12</td>
+            <td class="Sat">13</td>
+            <td class="Sun">14</td>
+        </tr>
+        <tr>
+            <td class="Mon">15</td>
+            <td class="Tue">16</td>
+            <td class="Wed">17</td>
+            <td class="Thu">18</td>
+            <td class="Fri">19</td>
+            <td class="Sat">20</td>
+            <td class="Sun">21</td>
+        </tr>
+        <tr>
+            <td class="Mon">22</td>
+            <td class="Tue">23</td>
+            <td class="Wed">24</td>
+            <td class="Thu">25</td>
+            <td class="Fri">26</td>
+            <td class="Sat">27</td>
+            <td class="Sun">28</td>
+        </tr>
+
+
+
+
+</html>
